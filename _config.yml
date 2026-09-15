@@ -1,8 +1,8 @@
 # Site Settings
 title: "Aarav Vikram"
 description: "Aarav Vikram — personal gateway, writing, and social links."
-baseurl: ""
-url: ""
+baseurl: "/AVVM"
+url: "https://avikramv502.github.io"
 
 # Build Settings
 plugins:
@@ -15,3 +15,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  - _config.dev.yml
