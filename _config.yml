@@ -1,0 +1,17 @@
+# Site Settings
+title: "Aarav Vikram"
+description: "Aarav Vikram — personal gateway, writing, and social links."
+baseurl: ""
+url: ""
+
+# Build Settings
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

@@ -1,0 +1,29 @@
+# Social Icons Row
+socials:
+  - platform: "Instagram"
+    url: "https://www.instagram.com/avikramv502"
+    icon: "instagram"
+  - platform: "Inkitt"
+    url: "https://www.inkitt.com/people/avikramv502"
+    icon: "inkitt"
+
+# Link Cards
+links:
+  - title: "Read Debut Story: Timeless Love Quest"
+    url: "https://www.inkitt.com/stories/1637811"
+    badge: "📖"
+
+  - title: "Latest: Chapter 4 - The Marginalia Effect Pt. 2"
+    url: "https://www.inkitt.com/stories/1637811/chapters/4"
+    badge: "💡"
+
+  - title: "Status: Chapter 5 is being written....."
+    badge: "🕔"
+
+  - title: "Follow My Inkitt Profile"
+    url: "https://www.inkitt.com/avikramv502"
+    badge: "✍️"
+
+  - title: "Follow Updates on Instagram"
+    url: "https://www.instagram.com/avikramv502"
+    badge: "📸"

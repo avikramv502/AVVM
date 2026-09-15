@@ -1,0 +1,24 @@
+# Jekyll output & caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler & dependencies
+.bundle/
+vendor/
+
+# Environment / Logs
+*.log
+.env
+
+# OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo

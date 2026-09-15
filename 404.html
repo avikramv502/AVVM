@@ -1,0 +1,27 @@
+---
+permalink: /404.html
+layout: default
+title: "404 - Page Not Found"
+---
+
+<div class="container">
+  <div class="terminal-box" style="margin-top: 2rem;">
+    <div class="terminal-header">
+      <div class="terminal-dots">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <span class="terminal-title">404.sh</span>
+    </div>
+    <div class="terminal-body" style="flex-direction: column; align-items: center; text-align: center; padding: 2rem 1rem;">
+      <h1 style="font-size: 2rem; color: var(--accent-color); margin-bottom: 0.5rem;">404</h1>
+      <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1.5rem;">Route not found in this reality.</p>
+      <a href="{{ '/' | relative_url }}" class="link-card" style="justify-content: center; padding: 0.5rem 1.25rem; max-width: 220px;">
+        <span>← Return to Gateway</span>
+      </a>
+    </div>
+  </div>
+
+  {% include footer.html %}
+</div>
