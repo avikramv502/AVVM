@@ -6,6 +6,9 @@ socials:
   - platform: "Inkitt"
     url: "https://www.inkitt.com/people/avikramv502"
     icon: "inkitt"
+  - platform: "Aarav Vikram"
+    url: "https://avikramv502.github.io/AVVM"
+    icon: "web"
 
 # Link Cards
 links:

@@ -34,7 +34,7 @@ quote_footer: "from Timeless Love Quest"
         <span class="dot yellow"></span>
         <span class="dot green"></span>
       </div>
-      <span class="terminal-title">quote.txt</span>
+      <span class="terminal-title">excerpt.txt</span>
     </div>
     <div class="terminal-body">
       <span class="prompt">&gt;</span>
