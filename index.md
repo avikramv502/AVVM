@@ -3,7 +3,7 @@ layout: default
 title: "Aarav Vikram"
 avatar: "assets/inkitt-avatar.png"
 author_name: "Aarav Vikram"
-bio: "Hi, I’m Aarav Vikram — dev by day, Literotica writer by…....questionable life choices."
+bio: "Hi, I’m Aarav Vikram — dev by day, Inkitt writer by…....questionable life choices."
 quote: "You're the writer, right? I wonder how you got this so wrong — feels like someone is too much into the romance to actually read the tragedy."
 quote_footer: "from Timeless Love Quest"
 ---
@@ -15,6 +15,38 @@ quote_footer: "from Timeless Love Quest"
   {% if page.bio %}
   <p class="bio">{{ page.bio }}</p>
   {% endif %}
+
+  <!-- Status Box -->
+  {%- assign current_status = page.status.text | default: page.status | default: site.data.links.status.text | default: site.data.links.status -%}
+  {%- assign current_badge = page.status_badge | default: page.status.badge | default: site.data.links.status.badge -%}
+  {%- assign current_url = page.status_url | default: page.status.url | default: site.data.links.status.url -%}
+  {%- if current_status -%}
+  {%- if current_url -%}
+  <a href="{{ current_url }}" class="status-box is-link" target="_blank" rel="noopener">
+    <span class="status-indicator" aria-hidden="true">
+      <span class="status-dot"></span>
+      <span class="status-ping"></span>
+    </span>
+    <span class="status-prefix">status:</span>
+    {%- if current_badge -%}
+    <span class="status-badge" aria-hidden="true">{{ current_badge }}</span>
+    {%- endif -%}
+    <span class="status-text">{{ current_status }}</span>
+  </a>
+  {%- else -%}
+  <div class="status-box" role="status" aria-live="polite">
+    <span class="status-indicator" aria-hidden="true">
+      <span class="status-dot"></span>
+      <span class="status-ping"></span>
+    </span>
+    <span class="status-prefix">status:</span>
+    {%- if current_badge -%}
+    <span class="status-badge" aria-hidden="true">{{ current_badge }}</span>
+    {%- endif -%}
+    <span class="status-text">{{ current_status }}</span>
+  </div>
+  {%- endif -%}
+  {%- endif -%}
 
   <!-- Social Icons Bar -->
   <div class="social-row">

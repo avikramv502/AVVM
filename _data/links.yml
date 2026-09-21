@@ -10,6 +10,11 @@ socials:
     url: "https://avikramv502.github.io/AVVM"
     icon: "web"
 
+# Live Status
+status:
+  text: "Chapter 5 is being written....."
+  badge: "🕔"
+
 # Link Cards
 links:
   - title: "Read Debut Story: Timeless Love Quest"
@@ -19,9 +24,6 @@ links:
   - title: "Latest: Chapter 4 - The Marginalia Effect Pt. 2"
     url: "https://www.inkitt.com/stories/1637811/chapters/4"
     badge: "💡"
-
-  - title: "Status: Chapter 5 is being written....."
-    badge: "🕔"
 
   - title: "Follow My Inkitt Profile"
     url: "https://www.inkitt.com/avikramv502"
